@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import { ArrowLeft, Check, ChevronRight, Eye, EyeOff, History, Menu, Save, X } from 'lucide-react';
-import { story } from './demo-story.js';
+import { story, START_NODE } from '../../stories/index.js';
 import GreenhouseScene from './GreenhouseScene.jsx';
 import './styles/story-game.css';
 
