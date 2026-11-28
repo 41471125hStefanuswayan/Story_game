@@ -5,10 +5,10 @@ import './styles/title-screen.css';
 
 const DEFAULT_SETTINGS = { textSize: 'standard', reducedMotion: false };
 const SKULL_DIALOGUES = [
-  "a",
-  "b",
-  "c",
-  "d",
+  "「向外看的人是在做夢；向內看的人才能覺醒。」Carl Jung",
+  "「知人者智，自知者明。勝人者有力，自勝者強。」老子",
+  "「當我們已經無法改變某種處境時，真正的挑戰便是改變自己。」Victor Frankl",
+  "「一個人只要有了活下去的理由，便幾乎能承受任何處境。」Friedrich Nietzsche",
 ];
 export function readSettings() {
   try {
